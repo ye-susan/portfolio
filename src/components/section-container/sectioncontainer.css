@@ -1,19 +1,17 @@
-@import "/src/variables.scss";
-
 .section-container {
   z-index: 100;
   padding: 20px;
 }
 
 .section-title {
-  color: $green2;
+  color: #3c725b;
   font-family: "Nunito", Arial, Helvetica, sans-serif;
   padding: 0 30px;
   margin: 0;
 }
 
 .content {
-  color: $green3;
+  color: #214738;
   font-family: "Quicksand", Arial, Helvetica, sans-serif;
   background-color: white;
   border-radius: 30px;

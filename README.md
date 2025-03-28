@@ -9,4 +9,5 @@
     * [ ] Make project containers vertical
     * [ ] Make sure icon containers flex correctly on smaller screens
 * [ ] Create Modal for project demos
-* [ ] Background animations
+* [ ] Background animations?
+* [ ] Make dark/light mode with redux

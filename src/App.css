@@ -1,23 +1,38 @@
-@import './variables.scss';
+
+/* Style variables
+//Font Pairing
+@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
+
+
+//SCREEN SIZES FOR MEDIA QUERIES
+$desktop-screen: 900px;
+$tablet-screen: 768px;
+$mobile-screen: 450px;
+
+$below-desktop: '(max-width: #{$desktop-screen - 1})';
+$tablet-up: '(min-width: #{$tablet-screen})';
+$below-tablet: '(max-width: #{$tablet-screen - 1})';
+$mobile-up: '(min-width: #{$mobile-screen})';
+$below-mobile: '(max-width: #{$mobile-screen - 1})';
+
+$cream: #ece4df;
+$green1: #9abda7;
+$green2: #3c725b;
+$green3: #214738;
+$green4: #031d12;
+$green5: #36633d;
+
+*/
 
 html {
-  //color variables
   background-image: url('./assets/josh-calabrese-unsplash.png');  
   background-size: cover;
-  --cream: #ece4df;
-  --green1: #9abda7;
-  --green2: #3c725b;
-  --green3: #214738;
-  --green4: #031d12;
-  --green5: #36633d;
-
-  --testgreen:#4c917331; 
 }
 
 footer {
   text-align: center;
   font-family: "Quicksand", Arial, Helvetica, sans-serif;
-  color: var(--green4);
+  color: #031d12;
   padding: 0;
   margin: 0;
   margin-bottom: 10px;
@@ -33,7 +48,6 @@ footer {
 }
 
 .content-area {
-  //background-color: rgba(255, 255, 255, 0.85);
   width: 650px;
   margin: 100px auto 80px 20% ;
   margin-left: 20%;
@@ -45,7 +59,7 @@ p {
 
 a {
   text-decoration: none;
-  color: $green2;
+  color: #3c725b;
 }
 
 a:visited {
@@ -55,11 +69,10 @@ a:link {
   text-decoration: nones;
 }
 a:hover{
-  color: $green1;
+  color: #9abda7;
 }
 
-
-//OVERRIDING CHRONO STYLES 
+/* Override Chrono styles */
 .timeline-controls {
   margin-bottom: 60px;
   background: rgba(229, 229, 229, 0.00)!important;
