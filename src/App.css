@@ -1,9 +1,5 @@
 
 /* Style variables
-//Font Pairing
-@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
-
-
 //SCREEN SIZES FOR MEDIA QUERIES
 $desktop-screen: 900px;
 $tablet-screen: 768px;
@@ -21,8 +17,8 @@ $green2: #3c725b;
 $green3: #214738;
 $green4: #031d12;
 $green5: #36633d;
-
 */
+@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
 
 html {
   background-image: url('./assets/josh-calabrese-unsplash.png');  

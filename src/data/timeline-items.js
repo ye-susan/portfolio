@@ -1,13 +1,16 @@
 // Illustration by <a href="https://icons8.com/illustrations/author/ARh4OKrFtdfC">Pixeltrue Ouch!</a>
-
 export const TimelineItems = [
   {
     title: "Present day",
-    cardTitle: "",
+    cardTitle: "Evernorth (Cigna)",
+    cardSubtitle: "Software Engineer",
+    cardDetailedText:
+      "Developing full-stack features using React, TypeScript, JavaScript, and Python to enable financial modeling capabilities for users, while implementing end-to-end and unit tests in Jest, Cypress, and Python to reduce production bugs. As well as partnering with business stakeholders to design and deliver full fledge features, reducing development cycle time and improving user satisfaction.",
     media: {
       type: "IMAGE",
       source: {
-        url: "https://ouch-cdn.icons8.com/preview/366/16375548-34e0-4c0b-a4ae-f3e78540e4bd.png",
+        url: "/images/pixeltrue-web-development.png",
+        alt: "Illustration by Natasha Remarchuk from icons8.com",
       },
     },
   },
@@ -31,8 +34,8 @@ export const TimelineItems = [
     media: {
       type: "IMAGE",
       source: {
-        url: "https://ouch-cdn.icons8.com/preview/406/8d5cf84c-bc4a-464f-a848-02ce2ec1fbaf.png",
-        alt: "Illustration by Natasha Remarchuk from icons8.com",
+        url: "/images/pixeltrue-web-design.png",
+        alt: "Illustration by Pixeltrue Ouch! from icons8.com",
       },
     },
   },
