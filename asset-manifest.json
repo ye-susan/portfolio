@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.18918813.css",
-    "main.js": "/static/js/main.eb40798f.js",
+    "main.js": "/static/js/main.6fbfc1aa.js",
     "static/media/josh-calabrese-unsplash.png": "/static/media/josh-calabrese-unsplash.6ebdaef644387cb13abc.png",
     "static/media/wefunder-icon.png": "/static/media/wefunder-icon.c44123fae9e12e821cc5.png",
     "index.html": "/index.html",
     "main.18918813.css.map": "/static/css/main.18918813.css.map",
-    "main.eb40798f.js.map": "/static/js/main.eb40798f.js.map"
+    "main.6fbfc1aa.js.map": "/static/js/main.6fbfc1aa.js.map"
   },
   "entrypoints": [
     "static/css/main.18918813.css",
-    "static/js/main.eb40798f.js"
+    "static/js/main.6fbfc1aa.js"
   ]
 }
