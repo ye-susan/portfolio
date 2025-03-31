@@ -72,6 +72,7 @@ a:hover{
 .timeline-controls {
   margin-bottom: 60px;
   background: rgba(229, 229, 229, 0.00)!important;
+  display: none !important;
 }
 
 .timeline-main-wrapper {
@@ -109,4 +110,14 @@ a:hover{
   }
 }
 
+.ToolbarWrapper-sc-exupb5-0 {
+  display: none !important; 
+}
 
+.TimelineItemContentWrapper-sc-d7qjm1-0.ilhOFy  {
+ justify-content: center !important;
+}
+
+.TriangleIconWrapper-sc-d7qjm1-11 {
+  display: none !important;
+}

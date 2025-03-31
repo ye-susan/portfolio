@@ -13,14 +13,9 @@ import linkedinIcon from "./assets/icons8-linkedin-100.png";
 import emailIcon from "./assets/icons8-mail-100.png";
 import laptopIcon from "./assets/laptop.png";
 import spreadsheetIcon from "./assets/spreadsheet.png";
-
-const CustomCard = ({ title, content, media }) => (
-  <div style={{ backgroundColor: "pink", padding: "10px" }}>
-    <h3>`${title} 33`</h3>
-    <p>{content}</p>
-    {media && <img src={media.source.url} alt="media" />}
-  </div>
-);
+import stoutIcon from "./assets/stout-icon.png";
+import hflaIcon from "./assets/hfla-icon.png";
+import wefunderIcon from "./assets/wefunder-icon.png";
 
 const App = () => {
   return (
@@ -85,23 +80,14 @@ const App = () => {
                     cardForeColor: "#031d12",
                   }}
                   className="chrono-timeline"
-                  cardComponent={CustomCard}
                 >
                   <div className="chrono-icons">
                     <img src={laptopIcon} alt="computer icon" />
-                    <img
-                      src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia-exp1.licdn.com%2Fdms%2Fimage%2FC560BAQFZJJYPR4HLMA%2Fcompany-logo_200_200%2F0%3Fe%3D2159024400%26v%3Dbeta%26t%3DDLdegHk7W9QuvO6igqYDkJdc0m1A8l11odLMQHOtB9g&f=1&nofb=1"
-                      alt="Wefunder logo"
-                    />
-                    <img
-                      src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F11635254%3Fs%3D200%26v%3D4&f=1&nofb=1"
-                      alt="HFLA logo"
-                    />
+                    <img src={laptopIcon} alt="computer icon" />
+                    <img src={wefunderIcon} alt="Wefunder logo" />
+                    <img src={hflaIcon} alt="HFLA logo" />
                     <img src={spreadsheetIcon} alt="spreadsheet icon" />
-                    <img
-                      src="https://external-content.duckduckgo.com/ip3/www.stout.com.ico"
-                      alt="Stout logo"
-                    />
+                    <img src={stoutIcon} alt="Stout logo" />
                   </div>
                 </Chrono>
               </div>
