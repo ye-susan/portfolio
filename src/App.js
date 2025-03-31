@@ -37,13 +37,13 @@ const App = () => {
                   currently working as a full stack software engineer.
                   <br />
                   <br />
-                  I’m passionate building software that makes a real difference
-                  for people, especially when it involves solving tricky
-                  problems. Right now, I'm working on web apps with JavaScript,
-                  React, TypeScript, and Python to create powerful financial
-                  tools and collaborating with business stakeholders to make
-                  sure users get the most out of them (and enjoy using them,
-                  too!).
+                  I'm passionate about building software that makes a real
+                  difference, and thrive on brewing creative solutions to
+                  complex problems. Currently, I develop full-stack features
+                  with JavaScript, React, TypeScript, and Python to create
+                  powerful financial tools, while collaborating with business
+                  stakeholders to make sure users get the most out of those
+                  tools (and enjoy using them, too!).
                   <br />
                   <br />
                   When I'm not coding, you can find me hiking, watching sitcoms,
