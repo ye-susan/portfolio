@@ -2,8 +2,8 @@
   border-radius: 50%;
   width: 175px;
   position: absolute;
-  left: 700px;
-  top: 50px;
+  left: 700px; 
+  top: 20px;
 
   .color {
     visibility: hidden;

@@ -28,6 +28,7 @@ const App = () => {
 
         <div className="content-area">
           <SectionContainer
+            style={{ marginTop: 20 }}
             id="about"
             sectionTitle="About"
             content={
